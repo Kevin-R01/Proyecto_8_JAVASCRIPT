@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: rgb(83, 200, 220);
+}
+.container{
+    display: flex;
+}
+
+
+.container1{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 > .subContainer1 {
+    width: 70%;
+    
+}
+.container1 > .subContainer1 >h1{
+    color: red;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.container1 > .subContainer1 > .reloj > .containDias >
+.dias,
+.horas,
+.minutos,
+.segundos
+{
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    margin: 0 5%;
+    border-radius:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.container1 > .subContainer1 > .reloj > .containDias > 
+.marcadorDia,
+.marcadorHoras,
+.marcadorMinutos,
+.marcadorSegundos
+{
+    color: #fff;
+    text-align: center;
+}
+
+.container1 > .subContainer1 > .botones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:3%;
+}
+
+
+.boton{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: red;
+    padding: 20px 30px;
+    border-radius:30px;
+    font-size: 20px;
+    margin: 0 1%;
+    cursor: pointer;
+}
+
+.boton.M{
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    border-radius:30px;
+    font-size: 20px;
+    margin: 0 1%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+.boton.M:hover{
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+
+
+.reloj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+
+
+.container2{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 > img{
+    width: 70%;
+}
